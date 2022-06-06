@@ -1,0 +1,245 @@
+* {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+
+
+/*Body*/
+
+
+body{
+    background: #f9f9f7 url("../img/fondoPatrio.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+
+
+/*Div OutSide*/
+
+
+#outside{
+    position: relative;
+    width: 85%;
+    height: 100%;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: white;
+    border-left: solid 3px rgb(213, 25, 25);
+    border-right: solid 3px rgb(213, 25, 25);
+    overflow: overlay;    
+}
+
+
+/*Header*/
+
+
+header{
+    width: 100%;
+    display: inline-flex;
+    height: 170px;
+    line-height: 18px;
+    background-color: white
+}
+
+header div{
+    line-height: 35px;
+    text-align: center;
+}
+
+
+/*Div Logo*/
+
+
+#logo{
+    margin-top: 10px;
+    width: 50%;
+}
+
+#logo img{
+    margin-left: 70px
+}
+
+#logo h3{
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+#paragraph1{
+    height: 140px;
+    border-left: solid 1px rgba(0, 0, 255, 0.6);
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 70px;
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 50px;    
+}
+
+
+/*Div tablas*/
+
+
+#tablas{
+    width: 100%;
+    height: 450px;
+    display: inline-flex;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+
+/*Tabla Candidatos*/
+
+
+#Candidatos{
+    border: solid 2px rgb(2, 2, 134);
+    margin-left: 30px;
+    width: 450px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-right: 20px;
+}
+
+#Candidatos tr th{ 
+    border: solid 2px rgb(2, 2, 134); 
+    border-collapse: collapse;
+}
+
+#Candidatos tr td{ 
+    border: solid 2px rgb(2, 2, 134);  
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#Candidatos .fila{
+    height: 100px;
+    text-decoration: none;    
+}
+
+#Candidatos td #candImage{
+    background-color: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#Candidatos td a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(117, 117, 251);
+}
+
+#Candidatos td a:hover{
+    height: 20px;
+    background-color: rgb(2, 2, 134);
+    color: rgb(247, 112, 112);
+}
+
+
+/*Tabla Encuestas*/
+
+#Enc{    
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-left: 35px;
+    float: left;
+    border-left: solid 1px rgba(0, 0, 255, 0.6);
+}
+
+#Encuestas{
+    border-collapse: collapse;
+    width: 650px;
+    border: solid 2px rgb(2, 2, 134);
+}
+
+#Encuestas tr th{
+    border: solid 2px rgb(2, 2, 134); 
+    border-collapse: collapse;
+}
+
+#Encuestas tr td{
+    border: solid 2px rgb(2, 2, 134); 
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#Encuestas td img{
+    background-color: none;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#Encuestas td a{
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(117, 117, 251);
+}
+
+#Encuestas td a:hover{
+    height: 20px;
+    background-color: rgb(2, 2, 134);
+    color: rgb(247, 112, 112);
+}
+
+#li{
+    width: 95%;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-top: solid 1px rgb(248, 37, 37);
+    list-style: none;
+    height: 130px;
+    color: rgb(248, 37, 37);
+}
+
+#li li{
+    padding-top: 3px;
+    line-height: 20px;
+}
+
+#li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(248, 37, 37);
+}
+
+#li a:hover{
+    background-color: rgb(248, 37, 37);
+    color: rgb(2, 2, 134);
+}
+
+/*Footer*/
+
+
+footer{      
+    width: 100%;
+    height: 100px;
+    border-top: double;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(136, 2, 2);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
